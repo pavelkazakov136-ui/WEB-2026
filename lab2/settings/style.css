@@ -1,0 +1,289 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login {
+    width: 1440px;
+    height: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.login__title {
+    font-family: Golos TEXT;
+    font-weight: 560;
+    font-size: 140px;
+    line-height: 180px;
+    letter-spacing: -1.5px;
+    margin-top: -450px;
+    margin-left: 172px;
+    position: absolute;
+    color: #222222;
+}
+
+.login__image {
+    flex: 1;
+    width: 462px;
+    height: 501px;
+    margin-left: 269px;
+}
+
+.login__form {
+    flex: 1;
+    width: 343px;
+    height: 251px;
+}
+
+.login__label {
+    font-family: Golos TEXT;
+    font-weight: 400;
+}
+
+.login__label--email {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.login__label--password {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.login__hint {
+    font-family: Golos TEXT;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+    color: #808080;
+    margin-top: 10px;
+}
+
+.login__field label {
+    display: block;
+    margin-top: 10px;
+}
+
+.login__field input {
+    width: 343px;
+    height: 19px;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-right: 12px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+    background: #F2F3F5;
+    border: 0;
+    margin-top: 10px;
+    outline: none;
+}
+
+.login__eye {
+    position: absolute;
+    margin-left: -37px;
+    margin-top: 20px;
+}
+
+.login__submit {
+    margin-top: 20px;
+    width: 366px;
+    height: 50px;
+    border-radius: 10px;
+    background: #222222;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    font-family: Golos TEXT;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts-block{
+    display: flex;
+}
+
+.posts-block__layout{
+    padding-top: 40px;
+    width: 72px;
+    height: 1080px;
+    border-right-width: 1px;
+    border-right: 1px solid #2222220D;
+    position: fixed;
+}
+
+.layout__item{
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 16px;
+    margin: 0px 16px 16px 16px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+
+.feed{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.feed__title{
+    width: 1369px;
+    height: 73px;
+}
+.feed__post-scroll{
+    width: 474px;
+    height: auto;
+}
+
+.post-scroll__post{
+    width: 700px;
+    display: block;
+}
+
+.post__author{
+    display: flex;
+    width: 474px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.author__avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
+
+}
+.author__name{
+    padding-left: 10px;
+    width: 150px;
+    height: 18px;
+    font-family: Golos TEXT;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+
+}
+
+.author__pen{
+    margin-left: auto;
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.post_picture-link{
+    margin: 0;
+    padding: 0;
+        position: relative;   
+    display: inline-block;
+}
+
+.post__picture{
+    width: 474px;
+    height: 474px;
+    top: 64px;
+    object-fit: cover;
+    display: block;
+}
+
+.picture-link__count{
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    top: 20px;
+    right: 16px;
+    opacity: 1;
+    border-radius: 20px;
+    background: #22222280;
+    backdrop-filter: blur(12px);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Golos TEXT;
+    font-weight: 400;
+
+
+}
+
+.picture-link__Slider-button{
+    position: absolute;
+    width: 20;
+    height: 20;
+    top: 50%;
+    right: 16px;
+    background: none;
+    border: none;
+}
+
+.post__likes{
+    margin-top: 16px;
+    width: 68px;
+    height: 30px;
+    top: 554px;
+    gap: 3px;
+    border-radius: 8px;
+    background: #2222220D;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 4px;
+}
+
+.likes__like{
+    width: 16px;
+    height: 16px;
+}
+
+.post__content{
+    width: 474px;
+    font-family: Golos TEXT;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+
+}
+
+.post__text {
+    display: -webkit-box;          
+    -webkit-line-clamp: 2;        
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    margin: 0;                 
+}
+ 
+.text__more-btn{
+    font-size: 15px;
+    color: #808080;
+    background: none;             
+    border: none;              
+    cursor: pointer;
+    padding: 0;            
+}
+
+.post__after{
+    color: #808080;
+    margin-top: 8px;
+    padding-bottom: 20px;
+}

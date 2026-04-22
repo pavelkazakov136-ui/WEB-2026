@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="../settings/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body class="posts-block">
+    <div class="posts-block__layout">
+        <a href="../posts/posts.html">
+            <img src="../settings/svg/Home.svg" alt="home" class="layout__item">
+        </a>
+        <a href="">
+            <img src="../settings/svg/profile.svg" alt="profile" class="layout__item">
+        </a>
+        <a href="">
+            <img src="../settings/svg/add-post.svg" alt="add post" class="layout__item">
+        </a>
+    </div>
+    <main class="feed">
+        <header class="feed__title"></header>
+        <div class="feed__post-scroll">
+            <div class="post-scroll__post">
+                <div class="post__author">
+                    <img src="../settings/img/Avatar_Ivan_Denisov.jpg" alt="Sample image" class="author__avatar">
+                    <h1 class="author__name">Ваня Денисов</h1>
+                    <img src="../settings/svg/pen.svg" alt="Sample image" class="author__pen">
+                </div>
+                <a href="../settings/img/post1.jpg" class="post_picture-link">
+                    <img src="../settings/img/post1.jpg" alt="picture" class="post__picture">
+                    <div class="picture-link__count">1/3</div>
+                    <button class="picture-link__Slider-button" id="sld-btn">
+                        <img src="../settings/svg/Slider-Button.svg" alt="slide">
+                    </button>
+                </a>
+                <div class="post__likes">
+                    <img src="../settings/img/like.png" alt="like" class="likes__like">
+                    203
+                </div>
+                <div class="post__content">
+                    <p class="post__text" id="postText1">
+                        Так красиво сегодня на улице! Настоящая зима))
+                        Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в городке, занесенном снегом по ручку двери...»
+                    </p> 
+                    <button class="text__more-btn" id="moreBtn1">ещё</button>
+                    <div class="post__after">2 часа назад</div>
+                </div>
+            </div>
+            <div class="post-scroll__post">
+                <div class="post__author">
+                    <img src="../settings/img/Avatar_Liza_Demidova.jpg" alt="Sample image" class="author__avatar">
+                    <h1 class="author__name">Лиза Денисова</h1>
+                </div>
+                <a href="../settings/img/post2.jpg">
+                    <img src="../settings/img/post2.jpg" alt="picture" class="post__picture">
+                </a>
+                <div class="post__likes">
+                    <img src="../settings/img/like.png" alt="like" class="likes__like">
+                    534
+                </div>
+                <div class="post__content">
+                    <p class="post__text" id="postText1">
+                    </p> 
+                    <button class="text__more-btn" id="moreBtn1"></button>
+                    <div class="post__after">1 день назад</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
