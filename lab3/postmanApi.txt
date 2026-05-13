@@ -1,0 +1,47 @@
+3.2
+https://api.openweathermap.org/data/2.5/weather?lat=56.37&lon=47.43&appid=2b566a7534b70348efef1f30d4390d66
+{
+    "coord": {
+        "lon": 47.43,
+        "lat": 56.37
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 287.67,
+        "feels_like": 286.07,
+        "temp_min": 287.67,
+        "temp_max": 287.67,
+        "pressure": 1022,
+        "humidity": 34,
+        "sea_level": 1022,
+        "grnd_level": 1011
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.72,
+        "deg": 0,
+        "gust": 6.74
+    },
+    "clouds": {
+        "all": 74
+    },
+    "dt": 1778321717,
+    "sys": {
+        "country": "RU",
+        "sunrise": 1778287673,
+        "sunset": 1778345137
+    },
+    "timezone": 10800,
+    "id": 6198518,
+    "name": "Severnyy",
+    "cod": 200
+}
+3.3
