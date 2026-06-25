@@ -5,7 +5,7 @@ function isLeapYear(int $year): bool {
 }
 if (isset($_POST['year']) && $_POST['year'] != '') {
     $year = (int)$_POST['year'];
-    if ($year < 30000) {
+    if ($year < 30000 && $year > 0) {
         if (isLeapYear($year)) {
             echo 'YES';
         }

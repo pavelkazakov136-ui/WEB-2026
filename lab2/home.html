@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="settings/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body class="page page--home">
+    <nav class="nav">
+        <a href="home.html" class="nav__item">
+            <img src="settings/svg/Home.svg" alt="home">
+        </a>
+        <a href="profile.html" class="nav__item">
+            <img src="settings/svg/profile.svg" alt="profile">
+        </a>
+        <a href="#" class="nav__item">
+            <img src="settings/svg/add-post.svg" alt="add post">
+        </a>
+    </nav>
+    <main class="feed">
+        <header class="feed__title"></header>
+        <div class="feed__list">
+            <div class="post">
+                <div class="post__author">
+                    <img src="settings/img/Avatar_Ivan_Denisov.jpg" alt="Sample image" class="post__avatar">
+                    <span class="post__name">Ваня Денисов</span>
+                    <img src="settings/svg/pen.svg" alt="Sample image" class="post__pen">
+                </div>
+                <a href="settings/img/post1.jpg" class="post__picture-link">
+                    <img src="settings/img/post1.jpg" alt="picture" class="post__picture">
+                    <div class="post__count">1/3</div>
+                    <button class="post__slider-btn" id="sld-btn">
+                        <img src="settings/svg/Slider-Button.svg" alt="slide">
+                    </button>
+                </a>
+                <div class="post__likes">
+                    <img src="settings/img/like.png" alt="like" class="post__like">
+                    203
+                </div>
+                <div class="post__content">
+                    <p class="post__text" id="postText1">
+                        Так красиво сегодня на улице! Настоящая зима))
+                        Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в городке, занесенном снегом по ручку двери...»
+                    </p>
+                    <button class="post__more-btn" id="moreBtn1">ещё</button>
+                    <div class="post__after">2 часа назад</div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post__author">
+                    <img src="settings/img/Avatar_Liza_Demidova.jpg" alt="Sample image" class="post__avatar">
+                    <span class="post__name">Лиза Денисова</span>
+                </div>
+                <a href="settings/img/post2.jpg" class="post__picture-link">
+                    <img src="settings/img/post2.jpg" alt="picture" class="post__picture">
+                </a>
+                <div class="post__likes">
+                    <img src="settings/img/like.png" alt="like" class="post__like">
+                    534
+                </div>
+                <div class="post__content">
+                    <p class="post__text" id="postText2">
+                    </p>
+                    <button class="post__more-btn" id="moreBtn2"></button>
+                    <div class="post__after">1 день назад</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
